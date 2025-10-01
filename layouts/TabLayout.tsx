@@ -13,13 +13,17 @@ export default function TabLayout() {
         <Label>Home</Label>
         <Icon sf="house" />
       </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="explore">
-        <Label>Explore</Label>
-        <Icon sf="atom" />
-      </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="tv_focus">
-        <Label>TV demo</Label>
+      <NativeTabs.Trigger name="tvdemo">
+        <Label>Focus/hover/active styles</Label>
         <Icon sf="tv.fill" />
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="video">
+        <Label>Video</Label>
+        <Icon sf="video" />
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="legendlistdemo">
+        <Label>LegendList</Label>
+        <Icon sf="list.bullet" />
       </NativeTabs.Trigger>
     </NativeTabs>
   );

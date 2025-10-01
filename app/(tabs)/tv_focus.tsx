@@ -30,7 +30,7 @@ export default function FocusDemoScreen() {
         <ThemedText type="defaultSemiBold">Pressable</ThemedText> and{' '}
         <ThemedText type="defaultSemiBold">Touchable</ThemedText> components.
       </ThemedText>
-      <Collapsible title="How it works">
+      <Collapsible title="How it works" >
         <ThemedText>
           • On TV platforms, these components have "onFocus()" and "onBlur()"
           props, in addition to the usual "onPress()". These can be used to

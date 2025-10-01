@@ -26,7 +26,8 @@
       "edgeToEdgeEnabled": true,
       "splash": {
         "image": "./assets/images/splash.png"
-      }
+      },
+      "package": "com.sid_003.watflix"
     },
     "ios": {
       "splash": {
